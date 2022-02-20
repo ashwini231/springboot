@@ -7,5 +7,5 @@ import com.javaweb.springboot.model.*;
 
 public interface EmployeeService {
 	List<Employee> getAllEmployees();
-	
+	void saveEmployee(Employee employee);
 }
